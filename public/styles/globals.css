@@ -82,3 +82,10 @@ table {
   border-radius: 30px;
   border: none;
 }
+
+@media screen and (max-width: 450px) {
+  .container {
+    padding: 10px 4px;
+  }
+}
+
