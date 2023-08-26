@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap");
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+  background-color: #060a0f;
+  min-width: 340px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+.container {
+  height: 500px;
+  width: 500px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 15px;
+  background-color: #929091;
+  min-width: 340px;
+}
+
+.display {
+  height: 20%;
+  border-radius: 30px;
+  background-color: #e5ebaa;
+  padding: 0 15px;
+  display: flex;
+  justify-content: end;
+}
+
+.inputs {
+  height: 80%;
+}
+
+.numbers {
+  background-color: #6a6869;
+}
+
+.input_display {
+  width: auto;
+  color: #060a0f;
+  font-size: 40px;
+  max-width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.symbols {
+  background-color: #aca8a7;
+}
+
+.numbers,
+.symbols {
+  height: 100%;
+  width: 100%;
+  color: #f0ffff;
+  font-size: 30px;
+  border-radius: 30px;
+  border: none;
+}
